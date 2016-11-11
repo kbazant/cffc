@@ -1,5 +1,25 @@
+/*****
+LAYOUT
+*****/
+
 .main-container {
 	background-color: #f2f2f2;
 	max-width: 800px;
 	margin: 0 auto;
 }
+
+
+/*****
+FONTS
+*****/
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+p {
+	font-family: 'Average Sans', sans-serif;
+}
+
+
