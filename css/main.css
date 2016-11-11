@@ -1,6 +1,6 @@
-/*****
+/**********
 LAYOUT
-*****/
+**********/
 
 .main-container {
 	background-color: #f2f2f2;
@@ -8,13 +8,19 @@ LAYOUT
 	margin: 0 auto;
 }
 
+.input-fields {
+	position: relative;
+	margin-left: 30%;
+}
 
-/*****
+
+/**********
 FONTS
-*****/
+**********/
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
+	text-align: center;
 }
 
 
@@ -22,4 +28,10 @@ p {
 	font-family: 'Average Sans', sans-serif;
 }
 
-
+input {
+	height: 5rem;
+	width: 10rem;
+	font-size: 2em;
+	font-family: 'Average Sans', sans-serif;
+	padding-left: 0.3em;
+}
