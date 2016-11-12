@@ -9,30 +9,35 @@ LAYOUT
 	transform: translate(-50%, -50%);
 }
 
-.parent {
-	position: relative;
-}
-
-.child {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-}
-
 .input-fields {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+/**********
+INPUT FIELDS
+**********/
+
+
+#c {
+	margin: 1em;
+}
+
+#f {
+	margin: 1em;
+}
+
+
 
 /**********
-FONTS
+TYPOGRAPHY
 **********/
 
 h1 {
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
+	COLOR: #722919;
 }
 
 p {
