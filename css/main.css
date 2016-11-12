@@ -3,35 +3,27 @@ LAYOUT
 **********/
 
 .main-container {
-/*	background-color: #f2f2f2;*/
-	max-width: 800px;
-	margin: 0 auto;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.parent {
+	position: relative;
+}
+
+.child {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .input-fields {
-/*	position: relative;*/
-/*	margin-left: 30%;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-/*
-.main-container {
-	display: table;
-}
-*/
-
-.input-fields {
-	display:flex;
-	justify-content:center;
-	align-items:center;
-}
-
-/*
-<div style="display:table;">
-  <div style="display:table-cell;vertical-align:middle;">
-    <div style="margin-left:auto;margin-right:auto;"></div>
-  </div>
-</div>
-*/
 
 
 /**********
@@ -42,7 +34,6 @@ h1 {
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
 }
-
 
 p {
 	font-family: 'Average Sans', sans-serif;
@@ -56,11 +47,11 @@ input {
 	padding-left: 0.3em;
 }
 
+
 /**********
 IMAGES
 **********/
 
 body {
 	background-image: url("../images/weather/weather.png");
-	
 }
