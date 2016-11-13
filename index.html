@@ -12,20 +12,24 @@
 
 <body>
 	<div class="main-container">
-		<h1>Convert Celsius to Fahrenheit or Fahrenheit to Celsius</h1>
-		<div class="input-fields">
-			<p>
-				<input id="c" onkeyup="convert('C')" placeholder="&deg;C">
-			</p>
-			<p>
-				<input id="f" onkeyup="convert('F')" placeholder="&deg;F">
-			</p>
-		</div>
+		<form id="converter">
+			<h1>Convert Celsius to Fahrenheit or Fahrenheit to Celsius</h1>
+			<div class="input-fields">
+				<p>
+					<input id="c" onkeyup="convert('C')" placeholder="&deg;C">
+					<label>Celsius</label>
+				</p>
+				<p>
+					<input id="f" onkeyup="convert('F')" placeholder="&deg;F">
+					<label>Fahrenheit</label>
+				</p>
+			</div>
 
-		<div id="changing-image"></div>
-
+			<div id="changing-image"></div>
+		</form>
 	</div>
-	
+
+
 	<!--Scripts-->
 	<script src="js/scripts.js">
 	</script>
