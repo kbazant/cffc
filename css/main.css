@@ -37,7 +37,8 @@ TYPOGRAPHY
 h1 {
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
-	COLOR: #722919;
+/*	color: #722919;*/
+	color: #804304;
 	letter-spacing: 0.09em;
 }
 
@@ -46,13 +47,13 @@ p {
 }
 
 input {
-	height: 5rem;
+	height: 4rem;
 	width: 8rem;
 	font-size: 2em;
 	font-family: 'Average Sans', sans-serif;
 	padding-left: 0.3em;
 	margin: 0.4em;
-	background-color: red;
+	background-color: #e1f9ff;
 }
 
 
