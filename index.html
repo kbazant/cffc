@@ -17,50 +17,26 @@
 				<h1>Convert Celsius to Fahrenheit or Fahrenheit to Celsius</h1>
 				<div class="input-fields">
 					<p>
-						<input id="c" onkeyup="convert('C')" placeholder="&deg;C">
+						<input id="c" type="number" onkeyup="convert('C')" placeholder="&deg;C">
 						<label>Celsius</label>
 					</p>
 					<p>
-						<input id="f" onkeyup="convert('F')" placeholder="&deg;F">
+						<input id="f" type="nnumber" onkeyup="convert('F')" placeholder="&deg;F">
 						<label>Fahrenheit</label>
 					</p>
 				</div>
-
-				<div id="changing-image"></div>
 			</form>
-
 		</div>
-		
-		
-<!--		image change testing-->
-		
-<!--		<input id="myid" type="text">-->
-<img id="myimg" src="http://dummyimage.com/100x100/000/fff">
-		
-		
-		
-		
+
 		<div class="push"></div>
 	</div>
 
 	<div class="footer">
 		<p>Web page created by <a href="http://www.kbazant.com/" target="_blank">KB</a></p>
 	</div>
-	
-	
-<!--
-	The image change depending on temperature:
-	1. <= -20
-	2. -19 - -10
-	3. -9 - 0
-	4. 1 - 10
-	5. 11 - 19
-	6. 20 - 30
-	7. 30 =>
--->
-	
 
 	<!--Scripts-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="js/scripts.js"></script>
 	<script src="js/image-change.js"></script>
 
