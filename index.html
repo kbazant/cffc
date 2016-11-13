@@ -4,6 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Celsius to fahrenheit and fahrenheit to celsius Converter.</title>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Average+Sans|Fjalla+One" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,14 +15,20 @@
 		<h1>Convert Celsius to Fahrenheit or Fahrenheit to Celsius</h1>
 		<div class="input-fields">
 			<p>
-				<input id="c" onkeyup="convert('C')" placeholder="&deg;C"></p>
+				<input id="c" onkeyup="convert('C')" placeholder="&deg;C">
+			</p>
 			<p>
-				<input id="f" onkeyup="convert('F')" placeholder=" &deg;F"></p>
+				<input id="f" onkeyup="convert('F')" placeholder="&deg;F">
+			</p>
 		</div>
+
+		<div id="changing-image"></div>
+
 	</div>
-			<!--Scripts-->
-			<script src="js/scripts.js">
-			</script>
+	
+	<!--Scripts-->
+	<script src="js/scripts.js">
+	</script>
 
 
 </body>
