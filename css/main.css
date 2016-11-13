@@ -7,12 +7,16 @@ LAYOUT
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+	max-width: 90%;
 }
 
 .input-fields {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	max-width: 86%;
+	text-align: center;
+	margin: 0 auto;
 }
 
 /**********
@@ -20,14 +24,10 @@ INPUT FIELDS
 **********/
 
 
-#c {
-	margin: 1em;
+input[type=text] {
+   /* Awesome styling */
+color: aqua;
 }
-
-#f {
-	margin: 1em;
-}
-
 
 
 /**********
@@ -47,10 +47,12 @@ p {
 
 input {
 	height: 5rem;
-	width: 10rem;
+	width: 8rem;
 	font-size: 2em;
 	font-family: 'Average Sans', sans-serif;
 	padding-left: 0.3em;
+	margin: 0.4em;
+	background-color: red;
 }
 
 
@@ -59,5 +61,5 @@ IMAGES
 **********/
 
 body {
-	background-image: url("../images/weather/weather.png");
+	background-image: url("../images/weather-pattern.png");
 }
