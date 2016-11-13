@@ -11,24 +11,31 @@
 </head>
 
 <body>
-	<div class="main-container">
-		<form id="converter">
-			<h1>Convert Celsius to Fahrenheit or Fahrenheit to Celsius</h1>
-			<div class="input-fields">
-				<p>
-					<input id="c" onkeyup="convert('C')" placeholder="&deg;C">
-					<label>Celsius</label>
-				</p>
-				<p>
-					<input id="f" onkeyup="convert('F')" placeholder="&deg;F">
-					<label>Fahrenheit</label>
-				</p>
-			</div>
+	<div class="wrapper">
+		<div class="main-container">
+			<form id="converter">
+				<h1>Convert Celsius to Fahrenheit or Fahrenheit to Celsius</h1>
+				<div class="input-fields">
+					<p>
+						<input id="c" onkeyup="convert('C')" placeholder="&deg;C">
+						<label>Celsius</label>
+					</p>
+					<p>
+						<input id="f" onkeyup="convert('F')" placeholder="&deg;F">
+						<label>Fahrenheit</label>
+					</p>
+				</div>
 
-			<div id="changing-image"></div>
-		</form>
+				<div id="changing-image"></div>
+			</form>
+
+		</div>
+		<div class="push"></div>
 	</div>
 
+	<div class="footer">
+		<p>Web page created by <a href="http://www.kbazant.com/" target="_blank">KB</a></p>
+	</div>
 
 	<!--Scripts-->
 	<script src="js/scripts.js">
