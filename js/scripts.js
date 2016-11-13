@@ -9,7 +9,3 @@ function convert(degree) {
 		document.getElementById("c").value = Math.round(temperature);
 	}
 }
-
-if ("C" == 10) {
-	$('#changing-image').attr('src', 'http://placehold.it/350x150');
-}
