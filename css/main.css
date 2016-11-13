@@ -19,15 +19,34 @@ LAYOUT
 	margin: 0 auto;
 }
 
+
 /**********
 INPUT FIELDS
 **********/
 
-
-input[type=text] {
-   /* Awesome styling */
-color: aqua;
+label {
+	display: inline-block;
+	width: 6em;
+	margin-right: .5em;
+	padding-top: 0.1em;
+	text-align: center;
 }
+
+input {
+	height: 4rem;
+	width: 8rem;
+	padding-left: 0.3em;
+	margin: 0.4em;
+	background-color: #e1f9ff;
+	display: block;
+}
+
+/*
+#converter div {
+	clear: both;
+	float: left;
+}
+*/
 
 
 /**********
@@ -37,23 +56,21 @@ TYPOGRAPHY
 h1 {
 	font-family: 'Fjalla One', sans-serif;
 	text-align: center;
-/*	color: #722919;*/
-	color: #804304;
+	/*	color: #722919;*/
+	/*	color: #804304;*/
+	color: #733c03;
 	letter-spacing: 0.09em;
 }
 
-p {
+input {
+	font-size: 2em;
 	font-family: 'Average Sans', sans-serif;
 }
 
-input {
-	height: 4rem;
-	width: 8rem;
-	font-size: 2em;
+label {
 	font-family: 'Average Sans', sans-serif;
-	padding-left: 0.3em;
-	margin: 0.4em;
-	background-color: #e1f9ff;
+	font-size: 1.2em;
+	color: #733c03;
 }
 
 
