@@ -28,31 +28,31 @@ $(document).ready(function() {
     var value = $(this).val();
 		
 //    1. Temperature of -20C or less
-    if (value <== "-20") 
+    if (value <= -20) 
       $(".wrapper").css({backgroundImage:"url(images/arctic-cold.jpg)"});
 		
 //    2. Temperature between -19C and -10C
-    else if (value == "-19")
+    else if (value > -20 && value < -10)
       $(".wrapper").css({backgroundImage:"url(images/winter-mountain-landscape.jpg)"});
 		
 //		3. Temperature between -9C and 0C
-		else if (value == "3")
+		else if (value > -10 && value < 1)
       $(".wrapper").css({backgroundImage:"url(images/snowboarding.jpg)"});
 		
 //		4. Temperature between 1C and 10C
-		else if (value == "4")
+		else if (value > 0 && value < 11)
       $(".wrapper").css({backgroundImage:"url(images/fall-autumn-season.jpg)"});
 		
 //		5. Temperature between 11C and 19C
-		else if (value == "5")
+		else if (value > 10 && value < 20)
       $(".wrapper").css({backgroundImage:"url(images/cherry-blossom.jpg)"});
 		
 //		6. Temperature between 20C and 29C
-		else if (value == "6")
+		else if (value > 19 && value < 30)
       $(".wrapper").css({backgroundImage:"url(images/tropical-beach-and-palm-tree.jpg)"});
 		
 //		7. Temperature of +30C or more
-		else if (value == "7")
+		else if (value > 29)
       $(".wrapper").css({backgroundImage:"url(images/desert-africa.jpg)"});
             
         })
