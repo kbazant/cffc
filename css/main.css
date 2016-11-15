@@ -8,8 +8,9 @@ LAYOUT
 	left: 50%;
 	transform: translate(-50%, -50%);
 	max-width: 90%;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 3px;
+	padding: 1em;
 }
 
 .input-fields {
@@ -20,6 +21,7 @@ LAYOUT
 	text-align: center;
 	margin: 0 auto;
 }
+
 
 /**********
 INPUT FIELDS
@@ -49,6 +51,7 @@ input {
 img {
 	opacity: 0.5;
 }
+
 
 /**********
 FOOTER
@@ -85,7 +88,7 @@ h1 {
 	text-align: center;
 	/*	color: #722919;*/
 	/*	color: #804304;*/
-/*	color: #733c03;*/
+	/*	color: #733c03;*/
 	color: #c7b19a;
 	letter-spacing: 0.09em;
 }
@@ -98,7 +101,7 @@ input {
 label {
 	font-family: 'Average Sans', sans-serif;
 	font-size: 1.2em;
-/*	color: #733c03;*/
+	/*	color: #733c03;*/
 	color: #c7b19a;
 }
 
