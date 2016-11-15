@@ -108,7 +108,8 @@ label {
 .footer p {
 	font-size: 0.9em;
 	font-family: 'Average Sans', sans-serif;
-	color: #759199;
+	/*	color: #759199;*/
+	color: #273033;
 	text-align: center;
 }
 
